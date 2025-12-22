@@ -19,4 +19,5 @@ The system retrieves the most relevant document from a knowledge base based on u
 ## Requirements
 
 ```bash
-pip install sentence-transformers faiss-cpu numpy
+pip install sentence-transformers faiss-cpu numpy tf-keras
+
