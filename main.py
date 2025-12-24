@@ -3,7 +3,7 @@ import faiss
 import numpy as np
 
 # Loading model from local folder
-model = SentenceTransformer("./all-minilm-finetuned/checkpoint-471")
+model = SentenceTransformer("./checkpoint-471")
 
 # Some sample documents (knowledge base)
 documents = [
@@ -55,3 +55,4 @@ while True:
     results = rag_query(user_query, top_k=1)  
     print("Bot:", results[0])
     print()
+
