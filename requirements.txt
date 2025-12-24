@@ -1,0 +1,4 @@
+sentence-transformers==2.7.0
+transformers==4.41.2
+faiss-cpu
+numpy==1.26.4
